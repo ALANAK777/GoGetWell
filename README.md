@@ -102,6 +102,57 @@ Each theme includes customizations for:
 - Hero sections
 - Layout variations
 
+## Screenshots
+
+### Default Theme
+![Default Theme - Light Mode](screenshots/default_light.png)
+![Default Theme - Dark Mode](screenshots/default_dark.png)
+![Default Theme - Mobile View](screenshots/default_mobile.png)
+
+### Organ Transplant Theme
+![Organ Transplant Theme - Light Mode](screenshots/organ_transplant_light.png)
+![Organ Transplant Theme - Dark Mode](screenshots/organ_transplant_dark.png)
+![Organ Transplant Theme - Mobile View](screenshots/organ_transplant_mobile.png)
+
+### Cosmetic Surgery Theme
+![Cosmetic Surgery Theme - Light Mode](screenshots/cosmetic_surgery_light.png)
+![Cosmetic Surgery Theme - Dark Mode](screenshots/cosmetic_surgery_dark.png)
+![Cosmetic Surgery Theme - Mobile View](screenshots/cosmetic_surgery_mobile.png)
+
+## Deployment to Vercel
+
+### Prerequisites
+
+- A Vercel account
+- Git repository for your project
+
+### Deployment Steps
+
+1. Fork or push your repository to GitHub, GitLab, or Bitbucket.
+
+2. Log in to your Vercel account and click on "New Project".
+
+3. Import your repository from GitHub, GitLab, or Bitbucket.
+
+4. Configure the project:
+   - Build Command: `npm run vercel-build`
+   - Output Directory: `dist`
+   - Install Command: `npm install`
+
+5. Set up environment variables:
+   - Add the variables from `env.example` to your Vercel project settings.
+   - Go to Settings > Environment Variables and add each variable.
+
+6. Click "Deploy" to build and deploy your application.
+
+7. Once deployment is complete, Vercel will provide you with a URL to access your application.
+
+### Troubleshooting
+
+- If you encounter build issues, check the Vercel build logs for errors.
+- Make sure all environment variables are properly set.
+- Verify that the application works locally with `npm run build` before deploying.
+
 ## License
 
 [License information] 

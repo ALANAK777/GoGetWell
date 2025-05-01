@@ -1,8 +1,11 @@
 import axios from 'axios';
 
+// Get API URL from environment variables or use default
+const API_URL = import.meta.env.VITE_API_URL || 'https://jsonplaceholder.typicode.com';
+
 // Create an axios instance with default settings
 const axiosInstance = axios.create({
-  baseURL: 'https://jsonplaceholder.typicode.com', // Example API for demonstration
+  baseURL: API_URL,
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
