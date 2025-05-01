@@ -1,0 +1,118 @@
+@import './themes.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  font-size: var(--base-size);
+  line-height: var(--line-height);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--text-primary);
+}
+
+/* RTL Support */
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .ltr-only {
+  display: none;
+}
+
+.ltr .rtl-only {
+  display: none;
+}
+
+/* RTL specific styles */
+.rtl .nav-container .max-w-7xl .flex:first-child {
+  flex-direction: row-reverse;
+}
+
+.rtl .hero-cta svg,
+.rtl .learn-more svg {
+  transform: scaleX(-1);
+}
+
+@layer utilities {
+  .ms-auto {
+    margin-inline-start: auto;
+  }
+  
+  .me-auto {
+    margin-inline-end: auto;
+  }
+  
+  .ms-0 {
+    margin-inline-start: 0;
+  }
+  
+  .me-0 {
+    margin-inline-end: 0;
+  }
+  
+  .ps-0 {
+    padding-inline-start: 0;
+  }
+  
+  .pe-0 {
+    padding-inline-end: 0;
+  }
+}
+
+@layer components {
+  button, .btn {
+    @apply bg-primary text-white px-4 py-2 rounded-md transition-colors;
+  }
+
+  button:hover, .btn:hover {
+    @apply bg-primary-deep;
+  }
+
+  input, select, textarea {
+    @apply border border-gray-300 rounded-md px-3 py-2;
+  }
+
+  .card {
+    @apply bg-white rounded-md shadow-md p-4 m-2 hover:shadow-lg transition-shadow;
+  }
+
+  /* Navigation Styles */
+  .nav-container {
+    @apply bg-primary text-white p-4 shadow-md;
+  }
+
+  .nav-link {
+    @apply px-3 py-2 rounded-md transition-colors;
+  }
+
+  .nav-link-active {
+    @apply bg-primary-deep;
+  }
+
+  /* Hero Section Styles */
+  .hero-container {
+    @apply py-16 px-4 bg-gradient-to-r from-primary-mild to-primary;
+  }
+
+  .hero-title {
+    @apply text-4xl font-bold mb-4 text-white;
+  }
+
+  .hero-subtitle {
+    @apply text-xl mb-6 text-white opacity-90;
+  }
+
+  .hero-cta {
+    @apply bg-accent text-white text-lg px-6 py-3 rounded-md hover:bg-opacity-90 transition-colors shadow-lg;
+  }
+} 

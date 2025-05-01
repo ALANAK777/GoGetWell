@@ -1,0 +1,68 @@
+{
+  "hero": {
+    "title": "Healthcare Made Simple",
+    "subtitle": "Connecting patients with the best healthcare providers and resources for better outcomes.",
+    "platform_badge": "#1 Healthcare Platform",
+    "users_count": "5,000+ users",
+    "joined_this_month": "Joined this month",
+    "available_support": "24/7 Support Available"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Comprehensive healthcare solutions designed to make your experience seamless and effective.",
+    "telemedicine": {
+      "title": "Telemedicine",
+      "description": "Connect with top medical professionals from the comfort of your home."
+    },
+    "patient_portal": {
+      "title": "Patient Portal",
+      "description": "Access your medical records, schedule appointments, and more."
+    },
+    "health_monitoring": {
+      "title": "Health Monitoring",
+      "description": "Track your health metrics and get personalized insights."
+    }
+  },
+  "why_choose_us": {
+    "title": "Why Choose Us?",
+    "description": "We combine cutting-edge technology with compassionate care to deliver exceptional healthcare experiences.",
+    "expertise": {
+      "title": "Expertise",
+      "description": "Our network includes top specialists in various medical fields."
+    },
+    "technology": {
+      "title": "Technology",
+      "description": "We leverage cutting-edge technology to provide the best care possible."
+    },
+    "convenience": {
+      "title": "Convenience",
+      "description": "Access healthcare services anytime, anywhere."
+    },
+    "personalized_care": {
+      "title": "Personalized Care",
+      "description": "Tailored medical advice and treatment plans for your specific needs."
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Have questions or need assistance? Our team is here to help you.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "name_placeholder": "Your name",
+    "email_placeholder": "Your email",
+    "subject_placeholder": "How can we help you?",
+    "message_placeholder": "Your message"
+  },
+  "specialty": {
+    "organ_transplant": {
+      "title": "Request a Consultation",
+      "description": "Our transplant specialists are available to discuss your options and provide guidance."
+    },
+    "cosmetic_surgery": {
+      "title": "Schedule Your Transformation",
+      "description": "Start your journey to a more confident you by scheduling a personal consultation."
+    }
+  }
+} 

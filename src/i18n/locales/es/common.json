@@ -1,0 +1,68 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "themes": "Temas",
+    "docs": "Documentación",
+    "support": "Soporte"
+  },
+  "theme": {
+    "dark": "Modo Oscuro",
+    "light": "Modo Claro",
+    "switch_to_dark": "Cambiar a Modo Oscuro",
+    "switch_to_light": "Cambiar a Modo Claro",
+    "current_mode": "Modo actual"
+  },
+  "footer": {
+    "copyright": "© {{year}} GoGetWell.ai. Todos los derechos reservados.",
+    "company": "Empresa",
+    "about": "Acerca de",
+    "careers": "Carreras",
+    "press": "Prensa",
+    "blog": "Blog",
+    "services": "Servicios",
+    "telemedicine": "Telemedicina",
+    "patient_portal": "Portal del Paciente",
+    "health_monitoring": "Monitoreo de Salud",
+    "medical_records": "Registros Médicos",
+    "legal": "Legal",
+    "privacy_policy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookie_policy": "Política de Cookies",
+    "hipaa": "Cumplimiento HIPAA"
+  },
+  "language": {
+    "select": "Seleccionar Idioma",
+    "en": "Inglés",
+    "ar": "Árabe",
+    "es": "Español"
+  },
+  "buttons": {
+    "submit": "Enviar",
+    "learn_more": "Aprende Más",
+    "get_started": "Comenzar",
+    "watch_demo": "Ver Demo",
+    "send_message": "Enviar Mensaje",
+    "apply_theme": "Aplicar Tema",
+    "currently_active": "Actualmente Activo",
+    "retry": "Reintentar"
+  },
+  "contact": {
+    "call_us": "Llámanos",
+    "call_us_description": "Nuestro equipo de soporte está disponible 24/7",
+    "email_us": "Envíanos un Email",
+    "email_us_description": "Responderemos lo más rápido posible",
+    "follow_us": "Síguenos"
+  },
+  "loading": "Cargando...",
+  "error": {
+    "default": "Ha ocurrido un error. Por favor, inténtalo de nuevo más tarde.",
+    "not_found": "El recurso solicitado no fue encontrado.",
+    "unauthorized": "No estás autorizado para acceder a este recurso.",
+    "network": "Error de red. Por favor, verifica tu conexión.",
+    "timeout": "La solicitud ha expirado. El servidor está tardando demasiado en responder."
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros pacientes",
+    "using_demo_data": "Usando datos de demostración (API no está disponible)"
+  }
+} 

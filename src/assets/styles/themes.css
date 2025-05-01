@@ -1,0 +1,108 @@
+/* Default Theme - General Medical */
+:root, .theme-default {
+  --primary: #1976d2;
+  --primary-deep: #1565c0;
+  --primary-mild: #64b5f6;
+  --secondary: #388e3c;
+  --secondary-deep: #2e7d32;
+  --secondary-mild: #81c784;
+  --accent: #f57c00;
+  --background: #f5f5f5;
+  --text-primary: #212121;
+  --text-secondary: #757575;
+  
+  /* Typography */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --heading-font: 'Inter', system-ui, -apple-system, sans-serif;
+  --base-size: 16px;
+  --line-height: 1.5;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}
+
+/* Theme 1 - Organ Transplant */
+.theme-organ-transplant {
+  --primary: #6200ea;
+  --primary-deep: #5600e8;
+  --primary-mild: #9d46ff;
+  --secondary: #304ffe;
+  --secondary-deep: #283593;
+  --secondary-mild: #8c9eff;
+  --accent: #d50000;
+  --background: #fafafa;
+  --text-primary: #263238;
+  --text-secondary: #546e7a;
+  
+  /* Typography */
+  --font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+  --heading-font: 'Roboto Slab', serif;
+  --base-size: 16px;
+  --line-height: 1.6;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}
+
+/* Theme 2 - Cosmetic Surgery */
+.theme-cosmetic-surgery {
+  --primary: #ad1457;
+  --primary-deep: #880e4f;
+  --primary-mild: #ec407a;
+  --secondary: #26a69a;
+  --secondary-deep: #00897b;
+  --secondary-mild: #80cbc4;
+  --accent: #ff6f00;
+  --background: #fff8f8;
+  --text-primary: #424242;
+  --text-secondary: #757575;
+  
+  /* Typography */
+  --font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+  --heading-font: 'Playfair Display', serif;
+  --base-size: 16px;
+  --line-height: 1.7;
+  --font-weight-normal: 300;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}
+
+/* Dark mode variations */
+.dark.theme-default {
+  --primary: #2196f3;
+  --primary-deep: #1976d2;
+  --primary-mild: #64b5f6;
+  --secondary: #4caf50;
+  --secondary-deep: #388e3c;
+  --secondary-mild: #81c784;
+  --accent: #ff9800;
+  --background: #121212;
+  --text-primary: #ffffff;
+  --text-secondary: #b0bec5;
+}
+
+.dark.theme-organ-transplant {
+  --primary: #7c4dff;
+  --primary-deep: #6200ea;
+  --primary-mild: #b388ff;
+  --secondary: #536dfe;
+  --secondary-deep: #3d5afe;
+  --secondary-mild: #8c9eff;
+  --accent: #ff1744;
+  --background: #1a1a2e;
+  --text-primary: #ffffff;
+  --text-secondary: #b0bec5;
+}
+
+.dark.theme-cosmetic-surgery {
+  --primary: #d81b60;
+  --primary-deep: #c2185b;
+  --primary-mild: #f06292;
+  --secondary: #00bcd4;
+  --secondary-deep: #0097a7;
+  --secondary-mild: #4dd0e1;
+  --accent: #ff8f00;
+  --background: #2e1e30;
+  --text-primary: #ffffff;
+  --text-secondary: #b0bec5;
+} 

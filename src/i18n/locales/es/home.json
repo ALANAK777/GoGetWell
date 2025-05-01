@@ -1,0 +1,68 @@
+{
+  "hero": {
+    "title": "Cuidado de la Salud Simplificado",
+    "subtitle": "Conectando pacientes con los mejores proveedores de atención médica y recursos para mejores resultados.",
+    "platform_badge": "#1 Plataforma de Salud",
+    "users_count": "Más de 5,000 usuarios",
+    "joined_this_month": "Se unieron este mes",
+    "available_support": "Soporte disponible 24/7"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "description": "Soluciones integrales de atención médica diseñadas para hacer su experiencia fluida y efectiva.",
+    "telemedicine": {
+      "title": "Telemedicina",
+      "description": "Conéctese con los mejores profesionales médicos desde la comodidad de su hogar."
+    },
+    "patient_portal": {
+      "title": "Portal del Paciente",
+      "description": "Acceda a sus registros médicos, programe citas y más."
+    },
+    "health_monitoring": {
+      "title": "Monitoreo de Salud",
+      "description": "Realice un seguimiento de sus métricas de salud y obtenga información personalizada."
+    }
+  },
+  "why_choose_us": {
+    "title": "¿Por Qué Elegirnos?",
+    "description": "Combinamos tecnología de vanguardia con atención compasiva para ofrecer experiencias excepcionales de atención médica.",
+    "expertise": {
+      "title": "Experiencia",
+      "description": "Nuestra red incluye a los mejores especialistas en diversos campos médicos."
+    },
+    "technology": {
+      "title": "Tecnología",
+      "description": "Aprovechamos la tecnología de vanguardia para proporcionar la mejor atención posible."
+    },
+    "convenience": {
+      "title": "Conveniencia",
+      "description": "Acceda a servicios de salud en cualquier momento y lugar."
+    },
+    "personalized_care": {
+      "title": "Atención Personalizada",
+      "description": "Consejos médicos y planes de tratamiento adaptados a sus necesidades específicas."
+    }
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "description": "¿Tiene preguntas o necesita asistencia? Nuestro equipo está aquí para ayudarle.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "name_placeholder": "Su nombre",
+    "email_placeholder": "Su correo electrónico",
+    "subject_placeholder": "¿Cómo podemos ayudarle?",
+    "message_placeholder": "Su mensaje"
+  },
+  "specialty": {
+    "organ_transplant": {
+      "title": "Solicitar una Consulta",
+      "description": "Nuestros especialistas en trasplantes están disponibles para discutir sus opciones y brindarle orientación."
+    },
+    "cosmetic_surgery": {
+      "title": "Programe su Transformación",
+      "description": "Comience su viaje hacia una versión más segura de sí mismo programando una consulta personal."
+    }
+  }
+} 
